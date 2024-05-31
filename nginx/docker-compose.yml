@@ -1,0 +1,8 @@
+services:
+  nginx:
+    image: nginx:latest
+    ports:
+      - "8000:80"
+    volumes:
+      - /srv/docker-data/nginx/conf.d:/etc/nginx/conf.d
+    restart: always
