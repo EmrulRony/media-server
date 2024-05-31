@@ -1,0 +1,21 @@
+docker-data
+├── bazarr
+│   └── config
+├── jackett
+│   ├── blackhole
+│   └── config
+├── media
+│   ├── downloads
+│   ├── movies
+│   └── tv
+├── nginx
+│   └── conf.d
+├── plex
+│   └── config
+├── qbittorrent
+│   ├── config
+│   └── downloads
+├── radarr
+│   └── config
+└── sonarr
+    └── config
